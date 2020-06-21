@@ -4,5 +4,5 @@ Projeto de TCC para o curso de Introdução à Programação com Python - IMD 20
 # Professor: Carlos Artur Guimarães
 # Aluno: Ridalvo Medeiros Alves de Oliveira
 
-# O objetivo desse projeto é apresentar em forma de gráfico as demandas de candidatos dos exames de proficiência em línguas estrangeiras realizados pela COMPERVE da UFRN.
+# O objetivo desse projeto é apresentar em forma de gráfico as demandas de candidatos dos processos seletivos para a Residência Médica dos hospitais da UFRN, realizados pela COMPERVE.
 # Atualmente essas demandas são apresentadas apenas em forma de quadros.
