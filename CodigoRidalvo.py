@@ -30,7 +30,7 @@ qtcand = [45,28,38,11,10,44,4,102,22,5,1,5,4,12,2,10,56,7,14,8,3,7,5,14,9,36,23,
 #################################################
 
 ### Título do gráfico
-plt.title('UFRN/COMPERVE \n Distribuição dos candidatos do processo seletivo para a Residência Médica 2020') 
+plt.title('UFRN/COMPERVE \n Distribuição dos candidatos do processo seletivo para a Residência Médica 2020 \n Por ordem de código de programa') 
 
 ### Título do eixo vertical
 plt.ylabel('Quant. de candidatos')
