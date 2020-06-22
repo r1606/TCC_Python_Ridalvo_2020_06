@@ -5,15 +5,20 @@
 #################################################
 
 #################################################
-# Importações do NUNPY e do MATPOTLIB 
+# Importações do NUNPY, do PANDAS e do MATPOTLIB 
 #################################################
 
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 #################################################
 # Carga do arquivo de dados ResMed.csv 
 #################################################
+
+df = pd.read_csv('ResMed.csv')
+df
+
 
 height = [11.30, 8.22, 7.88, 6.51, 6.16, 5.48, 5.14, 4.79, 4.45, 4.45, 4.11, 3.42, 3.42, 3.42, 3.08, 2.74, 2.40, 1.71, 1.37, 1.37, 1.37, 1.37, 1.03, 1.03, 0.68, 0.68, 0.68, 0.68, 0.34, 0.34, 0.34, 0, 0, 0, 0, 0]
 bars = ('Potengi', 'Lagoa Nova', 'Nossa Senhora da Apresentação', 'Pajuçara', 'Tirol', 'Ponta Negra', 'Pitimbú', 'Lagoa Azul', 'Petrópolis', 'Capim Macio', 'Candelária', 'Quintas', 'Neópolis', 'Alecrim', 'Felipe Camarão', 'Barro Vermelho', 'Cidade Alta', 'Dix-Sepr Rosado', 'Planalto','Igapó', 'Cidade da Esperança','Bom Pastor', 'Nova Descoberta', 'Areia Preta', 'Rocas','Nordeste', 'Guarapes', 'Cidade Nova', 'Redinha', 'Nossa Senhora de Nazaré ', 'Lagoa Seca', 'Mãe Luiza', 'Praia do Meio', 'Ribeira', 'Salinas', 'Santos Reis')
